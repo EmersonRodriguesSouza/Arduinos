@@ -6,10 +6,10 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup()
 {
-	// initialize the LCD
+	//Revert commit e atualização da descrição
 	lcd.begin();
 
-	// Turn on the blacklight and print a message.
+	
 	lcd.backlight();
   lcd.setCursor(3,0);
 	lcd.print("Hello");
@@ -19,5 +19,5 @@ void setup()
 
 void loop()
 {
-	// Do nothing here...
+	
 }
